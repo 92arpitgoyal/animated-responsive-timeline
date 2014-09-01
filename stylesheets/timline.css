@@ -1,0 +1,155 @@
+body{
+	font-family: Tahoma;
+}
+body > div{
+	text-align: center;
+}
+body > div > ul{
+	display: inline-block;
+}
+@media screen and (min-width: 1080px){
+  #timeline {
+    list-style: none;
+    margin: 120px 0 0;
+    padding: 0;
+    border-top:2px solid #9933dd;
+    display: table;
+    border-spacing: 30px 0;
+  }
+  /*
+  ul:before{
+    content: ' ';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 5px solid #9933dd;
+  }
+  */
+  #timeline li {
+    display: table-cell;
+  }
+  #timeline li .relative {
+    position: relative;
+  }
+  #timeline p {
+    margin: 0 0 15px;
+  }
+
+  .date {
+    text-align: center;
+    top: -70px;
+    left: 70px;
+    right: 0;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+  }
+  .date span{
+    display: block;
+    color:#ff712b;
+    font-size: 22px;
+  }
+  .circle {
+    margin: 0 auto;
+    top: -14px;
+    left: 0;
+    right: 0;
+    width: 0px;
+    height: 30px;
+    border: 1px solid #9933dd;
+    display: block;
+    position: absolute;
+  }
+
+  .content {
+    width: 150px;
+    max-height: 0;
+    margin-top: 40px;
+    vertical-align: top;
+    padding: 50px 15px 15px;
+    transition: width 0.4s linear, max-height 0.4s linear;
+    position: relative;
+  }
+
+
+  label {
+    font-size: 13px;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+    width: 200px;
+    display: block;
+    top: 60px;
+    left: 70px;
+    font-weight: normal;
+  }
+
+  .radio {
+    display: none;
+  }
+}
+@media screen and (max-width: 1079px){
+  #timeline {
+    list-style: none;
+    margin: 50px 0 30px 120px;
+    padding-left: 30px;
+    border-left: 2px solid #9933dd;
+  }
+  #timeline li {
+    margin: 20px 0;
+    position: relative;
+  }
+  #timeline p {
+    margin: 0 0 15px;
+  }
+
+  .date {
+    margin-top: -10px;
+    top: 50%;
+    left: -158px;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+  }
+  .date span{
+    display: block;
+    color:#ff712b;
+    font-size: 22px;
+  }
+
+  .circle {
+    margin-top: -10px;
+    top: 50%;
+    left: -44px;
+    width: 30px;
+    height: 0px;
+    border: 1px solid #9933dd;
+    display: block;
+    position: absolute;
+  }
+
+  .content {
+    max-height: 20px;
+    padding: 50px 20px 0;
+    border-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.5em;
+    position: relative;
+  }
+  label {
+    font-size: 9px;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+    top: 20px;
+    font-weight: normal;
+  }
+  .radio {
+    display: none;
+  }
+}
+label, .date, .date > span{
+  text-align: left;
+}

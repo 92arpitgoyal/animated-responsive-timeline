@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]> <html class="ie"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="arpit">
+
+    <title>Responsive animated timeline</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/timline.css">
+	</head>
+	<body>
+
+			<div style="width: 100%;">
+					<ul id='timeline'>
+					  <li class='wow fadeIn work' data-wow-duration=".2s" data-wow-delay=".2s">
+					    <input class='radio' id='work5' name='works' type='radio' checked>
+					    <div class="relative">
+					      <label for='work5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</label>
+					      <span class='date'>23rd Dec<span>2011</span></span>
+					      <span class='wow pulse circle' data-wow-duration=".2s" data-wow-delay="0s"></span>
+					    </div>
+					    <div class='content'>
+					    </div>
+					  </li>
+					  <li class='wow fadeIn work' data-wow-duration=".2s" data-wow-delay=".6s">
+					    <input class='radio' id='work4' name='works' type='radio'>
+					    <div class="relative">
+					      <label for='work4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</label>
+					      <span class='date'>January<span>2012</span></span>
+					      <span class='wow pulse circle' data-wow-duration=".2s" data-wow-delay=".4s"></span>
+					    </div>
+					    <div class='content'>
+
+					    </div>
+					  </li>
+					  <li class='wow fadeIn work'  data-wow-duration=".2s" data-wow-delay="1s">
+					    <input class='radio' id='work3' name='works' type='radio'>
+					    <div class="relative">
+					      <label for='work3'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</label>
+					      <span class='date'>February<span>2013</span></span>
+					      <span class='wow pulse circle' data-wow-duration=".2s" data-wow-delay=".8s"></span>
+					    </div>
+					    <div class='content'>
+
+					    </div>
+					  </li>
+					  <li class='wow fadeIn work'  data-wow-duration=".2s" data-wow-delay="1.4s">
+					    <input class='radio' id='work2' name='works' type='radio'>
+					    <div class="relative">
+					      <label for='work2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</label>
+					      <span class='date'>February<span>2014</span></span>
+					      <span class='wow pulse circle' data-wow-duration=".2s" data-wow-delay="1.2s"></span>
+					    </div>
+					    <div class='content'>
+
+					    </div>
+					  </li>
+					  <li class='wow fadeIn work'  data-wow-duration=".2s" data-wow-delay="1.8s">
+					    <input class='radio' id='work1' name='works' type='radio'>
+					    <div class="relative">
+					      <label for='work1'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</label>
+					      <span class='date'>April<span>2014</span></span>
+					      <span class='wow pulse circle' data-wow-duration=".2s" data-wow-delay="1.6s"></span>
+					    </div>
+					    <div class='content'>
+
+					    </div>
+					  </li>
+					</ul>
+			</div>
+		
+
+		<script type="text/javascript" src="js/wow.min.js"></script>
+	  	<script>
+	    wow = new WOW(
+	      {
+	        animateClass: 'animated',
+	        offset:       100
+	      }
+	    );
+	    wow.init();
+	  	</script>
+	</body>
+</html>
