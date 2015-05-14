@@ -1,10 +1,8 @@
-animated-responsive-timeline
-(31/08/2014)
+animated-responsive-timeline (14/05/2015)
 ====================================================================================
 
-Edited an existing timeline as per my need from (http://codepen.io/P233/pen/lGewF)
-and making it a animated timeline with help of wow.js and animate.css
+An Animated Timeline, Responsive using wow.js and animated.css
 it is a vertical-horizontal-timeline, changes according to size of screen
+Using fadeIn by default you can change it to other animations (refer Animate.css)
 
-by arpit goyal (http://in.linkedin.com/in/arpitgoyal92/)
 ====================================================================================
