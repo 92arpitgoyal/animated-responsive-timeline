@@ -1,4 +1,5 @@
-## animated-responsive-timeline #####(14/05/2015)
+## animated-responsive-timeline 
+#####(26/05/2015)
 
 An Animated Timeline (Responsive) using wow.js and animated.css
 it is a vertical-horizontal-timeline, changes according to size of screen
