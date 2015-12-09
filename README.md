@@ -1,5 +1,9 @@
 ### animated-responsive-timeline 
 
+#### Demo
+
+[Simple Static Demo](http://92arpitgoyal.github.io/animated-responsive-timeline/)
+
 ====================================================================================
 
 #### Features
