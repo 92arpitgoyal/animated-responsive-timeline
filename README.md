@@ -1,5 +1,7 @@
 ### animated-responsive-timeline 
 
+====================================================================================
+
 #### Features
 
 An Animated Timeline (Responsive) using wow.js and animated.css
@@ -17,6 +19,8 @@ shift dependencies to bower/npm
 using JSON data as source of feed
 
 predicting size of Timeline and creating media query accordingly
+
+====================================================================================
 
 #### Contribute
 
